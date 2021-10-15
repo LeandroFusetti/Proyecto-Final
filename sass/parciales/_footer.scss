@@ -1,0 +1,38 @@
+footer{
+    background: #2038B9 ;
+}
+
+footer{
+    border-top: solid 5px rgb(207, 205, 205);
+    width: auto;
+}
+.footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    &__div{
+        padding: 30px;
+        &__list{
+            list-style: none;
+            &--dato {
+                font-size: 1rem;
+                font-weight: 100;
+                color: white;
+                padding: 0.5rem;
+                
+            }
+        }
+        &--redes a{
+            padding: 15px;
+
+        }
+
+    }
+    
+}
+
+.copyright{
+    text-align: center;
+    color: white;
+    border-top: solid 1px black;
+}

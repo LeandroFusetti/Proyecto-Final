@@ -1,0 +1,27 @@
+main form{
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    border: solid 1px black;
+
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contactanos{
+   background-color: $celeste;
+    text-align: center;  
+    color:$blue;
+    margin: 20px;
+    width: 52%;  
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+

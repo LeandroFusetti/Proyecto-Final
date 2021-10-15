@@ -1,0 +1,39 @@
+.cocina{
+    background-color: $celeste;
+     text-align: center;  
+     color:$blue;
+     margin: 20px;
+     width: 52%;  
+     text-transform: uppercase;
+     font-size: 1.5rem;
+     font-weight: 900;
+ }
+
+ .baño{
+    background-color: $celeste;
+     text-align: center;  
+     color:$blue;
+     margin: 20px;
+     width: 52%;  
+     text-transform: uppercase;
+     font-size: 1.5rem;
+     font-weight: 900;
+ }
+
+ .pisos{
+    background-color: $celeste;
+     text-align: center;  
+     color:$blue;
+     margin: 20px;
+     width: 52%;  
+     text-transform: uppercase;
+     font-size: 1.5rem;
+     font-weight: 900;
+ }
+
+ .main-articulos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+ }

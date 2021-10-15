@@ -1,0 +1,43 @@
+.promociones{
+    background-color: $blue;
+    text-align: center;
+    border-bottom: $borde;
+    border-top: $borde;
+    color: white;   
+}
+
+/* .estilos-promociones{
+    background-color: yellowgreen;
+} */
+
+.grid {
+    width: 100%;
+    display: grid;  
+     background-color: lightblue; 
+   /* justify-items: center; */
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 400px 400px;
+            
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-row-gap: 50px;
+    grid-column-gap: 80px; 
+    padding: 20px;
+   
+    /* border: solid 1px black; */
+ }
+
+ .grid span p {
+     font-size: 1.25rem;
+     
+     
+     word-spacing: 1px;
+
+ }
+
+ .letrasPromocion{
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: #2038B9;
+    font-style: italic;
+ }
