@@ -1,43 +1,52 @@
-.promociones{
-    background-color: $blue;
-    text-align: center;
-    border-bottom: $borde;
-    border-top: $borde;
-    color: white;   
-}
+@import "./variables";
 
-/* .estilos-promociones{
-    background-color: yellowgreen;
-} */
-
-.grid {
+.main-promociones{
+    
     width: 100%;
-    display: grid;  
-     background-color: lightblue; 
-   /* justify-items: center; */
-    justify-content: center;
+}
+.article{
+    display: flex;
+    flex-direction: column;
+    
     align-items: center;
-    grid-template-columns: 400px 400px;
-            
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-row-gap: 50px;
-    grid-column-gap: 80px; 
-    padding: 20px;
+    
+    width: 100%;
+    
+    &__section{
+        display: flex;
+        flex-direction: row;
+        width: 800px;
+        align-items: center;
+        text-align: center;
+        background-color: rgb(199, 219, 243);
+        padding: 10px;
+        margin: 0px;
+
+        @include movil{
+            display: flex;
+            flex-direction: column; 
+            width: 100%;      
+            }
+        &__div--texto{
+            width: 100%;
+        }
+    }
    
-    /* border: solid 1px black; */
- }
+} 
 
- .grid span p {
+
+
+
+p {
      font-size: 1.25rem;
-     
-     
      word-spacing: 1px;
-
+     font-weight: 900;;
+    
  }
 
  .letrasPromocion{
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     font-weight: 900;
     color: #2038B9;
-    font-style: italic;
+   
  }
